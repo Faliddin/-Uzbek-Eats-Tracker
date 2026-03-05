@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uzbek Eats Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header>
+        <h1>🍽 O'zbekiston Taomlari</h1>
+        <button id="showBtn" onclick="showAllFoods()">
+            🍽 Uzbek Eats Tracker
+        </button>
+    </header>
+
+    <img src="./img/calores.jpg" alt="" style="background-size: cover; background-position: center; min-height: 100vh;" >
+
+    <div class="container">
+
+        <div class="menu">
+            <ul id="foodList"></ul>
+        </div>
+
+        <div class="details">
+            <h2 id="foodName">Taom tanlang</h2>
+
+            <img id="foodImage" class="food-img" alt="Ovqat rasmi">
+
+            <p>Kaloriya: <span id="calorie">0</span> kcal</p>
+            <p>Oqsil: <span id="protein">0</span> g</p>
+            <p>Yog': <span id="fat">0</span> g</p>
+            <p>Uglevod: <span id="carb">0</span> g</p>
+
+            <label>Porsiya (g):</label>
+            <input type="number" id="portion" value="100">
+
+            <button onclick="calculatePortion()">Hisoblash</button>
+            <button onclick="addToDaily()">Kunlikka qo‘shish</button>
+        </div>
+
+    </div>
+
+    <div class="daily">
+        <h2>🔥 Kunlik Kaloriya</h2>
+        <p id="dailyTotal">0 kcal</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

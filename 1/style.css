@@ -1,0 +1,110 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f2f2f2;
+    background: url(./img/calores.jpg);
+}
+
+header {
+    background: rgb(17, 37, 29);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#showBtn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background: rgb(4, 148, 120);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#showBtn:hover {
+    background: rgb(2, 89, 93);
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.menu {
+    width: 40%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+    color: black;
+    background: rgb(4, 148, 120);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background: #e0ffe0;
+}
+
+.details {
+    width: 60%;
+    background: white;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.food-img {
+    width: 350px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.details input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.details button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    background: rgb(2, 89, 102);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.details button:hover {
+    background: darkgreen;
+}
+
+.daily {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    background: rgb(4, 148, 120);
+}
+
+.details {
+    color: black;
+    background: rgb(4, 148, 120);
+}
