@@ -16,6 +16,7 @@
         <button id="showBtn" onclick="showAllFoods()">
             🍽 Uzbek Eats Tracker
         </button>
+        
     </header>
 
     <img src="./img/calores.jpg" alt="" style="background-size: cover; background-position: center; min-height: 100vh;" >
@@ -37,10 +38,11 @@
             <p>Uglevod: <span id="carb">0</span> g</p>
 
             <label>Porsiya (g):</label>
-            <input type="number" id="portion" value="100">
+            <input type="number" id="portion" value="100" class="date__1">
 
             <button onclick="calculatePortion()">Hisoblash</button>
-            <button onclick="addToDaily()">Kunlikka qo‘shish</button>
+            <button onclick="addToDaily()" class="date__2">Kunlikka qo‘shish</button>
+            <input type="date" class="date">
         </div>
 
     </div>

@@ -108,3 +108,19 @@ header {
     color: black;
     background: rgb(4, 148, 120);
 }
+
+
+.date {
+    background: rgb(2, 89, 102);
+    border-radius: 5px;
+    color: ;
+}
+
+.date__1{
+    border-radius: 5;
+    background: rgb(2, 89, 102);
+}
+
+.date__2{
+    color: black;
+}
